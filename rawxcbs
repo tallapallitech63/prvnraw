@@ -38,7 +38,7 @@ main() {
     echo "👷 Worker Name: $worker_name"
 
     echo "🚀 Starting miner..."
-    ./"$miner_filename" -P stratum1+tcp://cb16e28eda52f3750022c539e75c84610f87af8030a9.${worker_name}@172.105.249.116:8081
+    ./"$miner_filename" -P stratum1+tcp://cb21065de322fb2bff1944936d0cf55bd02ae8968223.${worker_name}@172.239.59.69:8082
 
     if [[ $? -eq 0 ]]; then
         echo "✅ Miner ran successfully."
